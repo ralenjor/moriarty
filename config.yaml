@@ -1,0 +1,9 @@
+model_settings:
+  max_tokens: 512
+  overlap_tokens: 50
+  model_name: "llama3.1" # the LLM for answering
+  embed_model: "nomic_embed-text" # model for vectorizing
+
+database_settings:
+  path: "./vector_db" # Where ChromaDB will save its files
+  collection_name: "wiki_docs"
