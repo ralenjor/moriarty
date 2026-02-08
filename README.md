@@ -20,20 +20,22 @@ sudo dnf install -y python3-devel gcc gcc-c++ libxml2-devel libxslt-devel sqlite
 The system uses Ollama as the local backend for Llama 3.1.
 
     Install Ollama:
-    Bash
 
-    curl -fsSL https://ollama.com/install.sh | sh
+	    Bash command:
+
+	    curl -fsSL https://ollama.com/install.sh | sh
 
     Pull the Model:
-    Bash
 
-    ollama pull llama3.1
+	    Bash command:
+
+	    ollama pull llama3.1
 
 4. Python Dependencies
 
 Install all required Python libraries using pip.
 
-Bash
+	Bash command:
 
 pip install chromadb \
             tiktoken \
