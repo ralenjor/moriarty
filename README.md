@@ -32,6 +32,7 @@ The system uses Ollama as the local backend for Llama 3.1.
 4. Python Dependencies
 
 Install all required Python libraries using pip.
+
 Bash
 
 pip install chromadb \
@@ -45,20 +46,22 @@ pip install chromadb \
 
 Dependency Breakdown:
 
-    chromadb: Vector database for storage.
+	    chromadb: Vector database for storage.
 
-    tiktoken: Token counting for Llama 3.1 context windows.
+	    tiktoken: Token counting for Llama 3.1 context windows.
+	
+	    lxml: High-speed, memory-efficient XML streaming.
 
-    lxml: High-speed, memory-efficient XML streaming.
+	    nltk: Sentence-level splitting.
 
-    nltk: Sentence-level splitting.
+	    pyyaml: Configuration management.
 
-    pyyaml: Configuration management.
-
-    onnxruntime: Local execution of the embedding model.
+	    onnxruntime: Local execution of the embedding model.
 
 5. Project Structure
 
+
+```text
 moriarty
 ├── config.yaml                                  # config file
 ├── data                                         # folder for ingestion - create this folder and place your downloaded XML file here
