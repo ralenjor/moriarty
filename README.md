@@ -27,7 +27,7 @@ The system uses Ollama as the local backend for Llama 3.1.
     Pull the Model:
     Bash
 
-    ollama pull llama3.1https://memory-alpha.fandom.com/wiki/Memory_Alpha:Database_download
+    ollama pull llama3.1
 
 4. Python Dependencies
 
