@@ -37,7 +37,7 @@ Install all required Python libraries using pip.
 
 	Bash command:
 
-pip install chromadb \
+	pip install chromadb \
             tiktoken \
             lxml \
             nltk \
